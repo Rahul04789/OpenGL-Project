@@ -126,6 +126,7 @@ int main()
         modelShader.Bind();
         modelShader.UpdateVertexShader(myproject::vertexshader_uniform_variables::VS_UV, &projection, LIGHTPOS);
         ourModel2.Draw(&modelShader);
+        ourModel1.Draw(&modelShader);
 
 
         window.Update();
